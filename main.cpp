@@ -5,13 +5,13 @@ int main() {
    float a,b,x,y,z;
     cin>>a>>b>>x>>y;
     if (x<0 and y>0){
-        z=a*x-b*y;
+        z=(a*x)-(b*y);
         cout<<z<<endl;
     } else if (x>=0 and y<=0){
-        z=a*x*x-b*y;
+        z=(a*(x*x))-(b*y);
         cout<<z<<endl;
     } else {
-        z=a*b+b*y*y;
+        z=(a*b)+(b*(y*y));
         cout<<z<<endl;
     }
    return 0;
